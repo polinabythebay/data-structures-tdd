@@ -1,0 +1,5 @@
+var CircularBuffer = function() {
+
+
+}
+

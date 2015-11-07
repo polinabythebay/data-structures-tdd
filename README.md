@@ -11,8 +11,6 @@
 - Graph
 - Binary Search Tree
 
-Want to implement data structures on your own and watch the tests pass? Fork this branch, clone the repo and checkout the new-slate branch.
-
 ### Data Structure Operations
 
  | Access | Search | Insertion | Delete
@@ -24,6 +22,7 @@ Doubly LinkedList |  |
 Hash Table |  |
 Binary Search Tree |  |
 
+Want to implement data structures on your own and watch the tests pass? Fork this branch, clone the repo and checkout the new-slate branch.
 
 ```
 $ git clone https://github.com/polinadotio/this-project.git
