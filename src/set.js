@@ -1,20 +1,18 @@
-var Set = function(){
-  var set = Object.create(setPrototype);
-  set._storage = undefined;
-  return set;
+var Set = function() {
+  this.storage = {};
 };
 
-var setPrototype = {};
-
-setPrototype.add = function(item){
+Set.prototype.add = function(item) {
+  if (this.storage[item] === undefined) {
+    this.storage[item] = true;
+  }
 };
 
-setPrototype.contains = function(item){
+Set.prototype.contains = function(item) {
+  return !!(this.storage[item]);
 };
 
-setPrototype.remove = function(item){
+Set.prototype.remove = function(item) {
+  delete this.storage[item];
 };
 
-/*
- * Complexity: What is the time complexity of the above functions?
- */
