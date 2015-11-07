@@ -4,7 +4,7 @@
 - Doubly LinkedList
 - Stack
 - Queue
-- Circular Buffer/Queue
+- Circular Buffer (Circular Queue)
 - HashTable
 - Set
 - Tree

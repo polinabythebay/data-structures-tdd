@@ -1,4 +1,4 @@
-describe('linkedList', function() {
+describe('singly-linkedList', function() {
   var linkedList;
 
   beforeEach(function() {

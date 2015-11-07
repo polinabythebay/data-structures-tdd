@@ -5,10 +5,10 @@ describe('circular buffer', function() {
     buffer = new CircularBuffer();
   });
 
-  xit('should have methods named "add", "contains", and "remove"', function() {
-    expect(set.add).to.be.a("function");
-    expect(set.contains).to.be.a("function");
-    expect(set.remove).to.be.a("function");
+  it('should have methods named "append", "remove", and "list"', function() {
+    expect(buffer.append).to.be.a("function");
+    expect(buffer.remove).to.be.a("function");
+    expect(buffer.list).to.be.a("function");
   });
 
 });
