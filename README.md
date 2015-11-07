@@ -13,6 +13,18 @@
 
 Want to implement data structures on your own and watch the tests pass? Fork this branch, clone the repo and checkout the new-slate branch.
 
+### Data Structure Operations
+
+ | Access | Search | Insertion | Delete
+--- | --- | --- | --- | --- | --- | 
+Array |  | 
+Stack |  | 
+Singly LinkedList |  | 
+Doubly LinkedList |  |
+Hash Table |  |
+Binary Search Tree |  |
+
+
 ```
 $ git clone https://github.com/polinadotio/this-project.git
 $ git checkout -b my-branch origin/new-branch
