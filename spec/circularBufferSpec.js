@@ -1,4 +1,4 @@
-describe('circular buffer', function() {
+describe('TODO circular buffer', function() {
   var buffer;
 
   beforeEach(function() {

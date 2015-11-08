@@ -1,8 +1,8 @@
-describe('TODO trie', function() {
-  var trie;
+describe('TODO heap', function() {
+  var heap;
 
   beforeEach(function() {
-    trie = new Trie();
+    heap = new Heap();
   });
 
   xit('should have methods named "add", "contains", and "remove"', function() {
