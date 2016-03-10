@@ -52,29 +52,20 @@ var linkedList = function(){
  this.tail = null;
  this.listLength = 0;
  
-  //adds node to the tail
-  //time complexity: linear, must traverse entire list
+
+  //appending is constant
+  //on the front or the back
   this.append = function(value) {
     var node = new listNode(value);
     //if completely empty
     if (this.head === null) {
       this.head = node;
     } else {
-      traverse(this.head);
+      this.tail.next = node;
     }
 
     this.tail = node;
     this.listLength++;
-
-    function traverse(item) {
-      //if current node points to null
-      //add item to end
-      if (item.next === null) {
-        item.next = node;
-      } else {
-        traverse(item.next);
-      }
-    }
   }
 
   //returns true if value is in linkedlist
